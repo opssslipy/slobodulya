@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Виктория Слобода — фото и видео в Москве</title>
+  <meta name="description" content="Свадьбы, крещения, семейные истории и праздники. Фото и видеосъёмка в Москве.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <a href="#top" class="logo">Виктория Слобода</a>
+    <nav class="nav">
+      <a href="#works" class="btn btn-nav">Примеры работ</a>
+      <a href="#prices" class="btn btn-nav">Цены</a>
+      <a href="#help" class="btn btn-nav">Помощь</a>
+      <a href="#contacts" class="btn btn-nav btn-accent">Контакты</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">Фото и видео · Москва</p>
+        <h1>Истории, которые хочется пересматривать</h1>
+        <p class="lead">Свадьбы, крещения, семейные съёмки и праздники. Живые эмоции без постановки — так, чтобы вы узнали себя.</p>
+        <div class="hero-actions">
+          <a href="#works" class="btn btn-primary">Смотреть работы</a>
+          <a href="#contacts" class="btn btn-ghost">Обсудить съёмку</a>
+        </div>
+      </div>
+      <div class="hero-visual" data-photo="images/hero.png"></div>
+    </section>
+
+    <section class="section" id="services">
+      <h2>Что я снимаю</h2>
+      <div class="cards">
+        <article class="card"><span class="icon">💍</span><h3>Свадьбы</h3><p>Утро невесты, церемония, банкет. Полный день или только самое важное.</p></article>
+        <article class="card"><span class="icon">🕊️</span><h3>Крещения</h3><p>Бережная съёмка таинства в храме без суеты и лишних вспышек.</p></article>
+        <article class="card"><span class="icon">👨‍👩‍👧</span><h3>Семейные истории</h3><p>Прогулки, домашние съёмки, детские праздники и семейные архивы.</p></article>
+        <article class="card"><span class="icon">🎈</span><h3>Праздники и события</h3><p>Гендер-пати, дни рождения, выездные мероприятия и съёмка с воздуха.</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="works">
+      <h2>Примеры работ</h2>
+      <div class="filters">
+        <button class="chip active" data-filter="all">Все</button>
+        <button class="chip" data-filter="wedding">Свадьбы</button>
+        <button class="chip" data-filter="baptism">Крещения</button>
+        <button class="chip" data-filter="family">Семья</button>
+        <button class="chip" data-filter="party">Праздники</button>
+      </div>
+      <div class="gallery">
+        <figure class="work tall" data-cat="wedding" data-photo="images/work1.jpg"><figcaption>Свадьба</figcaption></figure>
+        <figure class="work" data-cat="family" data-photo="images/work2.jpg"><figcaption>Семейная съёмка</figcaption></figure>
+        <figure class="work" data-cat="baptism" data-photo="images/work3.jpg"><figcaption>Крещение</figcaption></figure>
+        <figure class="work wide" data-cat="party" data-photo="images/work4.jpg"><figcaption>Гендер-пати</figcaption></figure>
+        <figure class="work tall" data-cat="wedding" data-photo="images/work5.jpg"><figcaption>Свадьба</figcaption></figure>
+        <figure class="work" data-cat="family" data-photo="images/work6.jpg"><figcaption>Семейная съёмка</figcaption></figure>
+      </div>
+      <p class="more"><a href="https://www.instagram.com/slobodulya" target="_blank" rel="noopener">Больше работ в Instagram →</a></p>
+    </section>
+
+    <section class="section" id="prices">
+      <h2>Цены</h2>
+      <p class="note">Один тариф на все виды съёмок: свадьбы, крещения, семья и праздники. Оплата за время работы.</p>
+      <div class="pricing">
+        <article class="card price featured rate">
+          <h3>Почасовая съёмка</h3>
+          <p class="amount">7 500 ₽ <small>/ час</small></p>
+          <ul><li>Фото и видео в одной съёмке</li><li>Обработка материалов</li><li>Любое количество часов</li></ul>
+          <a href="#contacts" class="btn btn-primary">Заказать съёмку</a>
+        </article>
+        <div class="hours">
+          <div class="hour"><span>1 час</span><strong>7 500 ₽</strong></div>
+          <div class="hour"><span>2 часа</span><strong>15 000 ₽</strong></div>
+          <div class="hour"><span>3 часа</span><strong>22 500 ₽</strong></div>
+          <div class="hour"><span>4 часа</span><strong>30 000 ₽</strong></div>
+          <div class="hour"><span>6 часов</span><strong>45 000 ₽</strong></div>
+          <div class="hour"><span>8 часов</span><strong>60 000 ₽</strong></div>
+        </div>
+      </div>
+      <div class="discount">
+        <span class="icon">🎁</span>
+        <div>
+          <h3>Скидки постоянным клиентам</h3>
+          <p>Если вы уже снимались у меня или приходите повторно, условия будут выгоднее. Размер скидки обсуждаем лично.</p>
+        </div>
+        <a href="#contacts" class="btn btn-ghost">Узнать скидку</a>
+      </div>
+    </section>
+
+    <section class="section" id="help">
+      <h2>Помощь</h2>
+      <div class="faq">
+        <details><summary>Как забронировать дату?</summary><p>Напишите мне в мессенджер или ВКонтакте: назовите дату, место и тип съёмки. Дату закрепляем после предоплаты.</p></details>
+        <details><summary>Сколько ждать готовые материалы?</summary><p>Фото и видео — в течение согласованного срока. Точные сроки зависят от типа съёмки, их назову до начала работы.</p></details>
+        <details><summary>Снимаете ли вы за пределами Москвы?</summary><p>Да, выезжаю по Москве, области и в другие города. Стоимость дороги обсуждается отдельно.</p></details>
+        <details><summary>Можно ли заказать и фото, и видео?</summary><p>Да, снимаю и то и другое. Комплект выходит выгоднее, чем по отдельности.</p></details>
+        <details><summary>Как проходит оплата?</summary><p>Предоплата для брони даты, остаток — после съёмки или при получении материалов.</p></details>
+      </div>
+    </section>
+
+    <section class="section contacts" id="contacts">
+      <h2>Контакты</h2>
+      <p class="lead">Расскажите о вашем событии, и я отвечу в ближайшее время.</p>
+      <div class="contact-list">
+        <a class="contact" href="https://www.instagram.com/slobodulya" target="_blank" rel="noopener"><span>Instagram</span><strong>@slobodulya</strong></a>
+        <a class="contact" href="https://vk.com/viktoriaslobodulya" target="_blank" rel="noopener"><span>ВКонтакте</span><strong>vk.com/viktoriaslobodulya</strong></a>
+        <a class="contact" href="tel:+79037613712"><span>Телефон</span><strong>+7 (903) 761-37-12</strong></a>
+        <a class="contact" href="mailto:hello@example.com"><span>Почта</span><strong>hello@example.com</strong></a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">© <span id="year"></span> Виктория Слобода · Фото и видео, Москва</footer>
+
+  <div class="chat" id="chat">
+    <div class="chat-panel" id="chatPanel" hidden>
+      <div class="chat-head">
+        <div><strong>Виктория Слобода</strong><span>Обычно отвечаю в течение дня</span></div>
+        <button class="chat-close" id="chatClose" aria-label="Закрыть">×</button>
+      </div>
+      <div class="chat-body">
+        <p class="bubble">Здравствуйте! 👋 Чем могу помочь? Выберите вопрос или напишите мне напрямую.</p>
+        <div class="quick">
+          <button data-answer="Стоимость: 7 500 ₽ за час съёмки. Например, 2 часа — 15 000 ₽, 4 часа — 30 000 ₽. Постоянным клиентам делаю скидки.">Сколько стоит съёмка?</button>
+          <button data-answer="Напишите мне дату, место и тип съёмки. Дату закрепляем после предоплаты.">Как забронировать дату?</button>
+          <button data-answer="Снимаю свадьбы, крещения, семейные истории и праздники, в том числе гендер-пати. Фото и видео.">Что вы снимаете?</button>
+        </div>
+        <p class="bubble answer" id="chatAnswer" hidden></p>
+      </div>
+      <div class="chat-foot">
+        <span>Написать напрямую:</span>
+        <div class="chat-links">
+          <a class="tg" href="https://t.me/+79037613712" target="_blank" rel="noopener">Telegram</a>
+          <a class="ig" href="https://ig.me/m/slobodulya" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </div>
+    </div>
+    <button class="chat-toggle" id="chatToggle" aria-label="Открыть чат помощи">💬 <span>Есть вопрос?</span></button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
